@@ -1,0 +1,93 @@
+body {
+    background-color: #83c5be;
+    font-family: 'Montserrat', sans-serif; 
+    margin: 0px;
+    margin-bottom: 4rem;
+}
+
+.navigation{
+    background-color: #006d77;
+    color: white;
+    padding: 0.5rem 0.5rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.nav-brand-name{
+    margin-left: 0.5rem;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.nav-prop{
+    text-align: left;
+}
+
+.list-non-bullet{
+    list-style: none;
+}
+
+.list-inline{
+    display: inline;
+}
+
+.link-nav{
+    color: white;
+    text-decoration: none;
+    padding: 0rem 1rem;
+}
+
+.nav-link-active{
+    font-weight: bold;
+}
+
+/* For is Triangle? */
+.container{
+    padding: 0rem 1rem;
+    max-width: 600px;
+    margin: auto;
+    margin-top: 5rem;
+    padding: 0.5rem 0.5rem;
+    text-align: center;
+}
+
+.label-is-triangle{
+    font-weight: bold;
+    font-size: 1.1rem;
+    padding-top: 0.5rem;
+}
+
+.angle-input{
+    display: block;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+    text-align: center;
+    padding: 0.5rem;
+    border: 1.5px solid black;
+    border-radius: 0.3rem;
+}
+
+#btn-is-triangle{
+    display: block;
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: 2px solid black;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+#output{
+    font-size: x-large;
+    padding: 1rem;
+    font-weight: bold;
+}
+
+#btn-is-triangle:hover{
+    opacity: 0.7;
+}
+
+/* For Triangle Quiz */

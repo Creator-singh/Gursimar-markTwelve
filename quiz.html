@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Triangle Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="./images/triangle.png" type="image/x-icon">
+</head>
+<body>
+    <nav class="navigation">
+        <div class="nav-brand-name">Fun with Triangles🔺</div>
+        <ul class="list-non-bullet nav-prop">
+            <li class="list-inline"><a class="link-nav" href="/">Is Triangle?</a></li>
+            <li class="list-inline"><a class="link-nav nav-link-active" href="/quiz.html">Triangle Quiz</a></li>
+            <li class="list-inline"><a class="link-nav" href="/hypotenuse.html">Hypotenuse</a></li>
+            <li class="list-inline"><a class="link-nav" href="/area.html">Area</a></li>
+        </ul>
+    </nav>
+
+        <h1 style="text-align: center;">Triangle Quiz</h1>
+
+        <form class="quiz-form">
+            <div class="quiz-container">
+                <p>1. What is the third angle for the triangle where angle1 = 45° and angle2 = 45°?</p>
+                <label><input type="radio" name ="question1" value="45°" />45°</label>
+                <label><input type="radio" name ="question1" value="60°" />60°</label>
+                <label><input type="radio" name ="question1" value="90°" />90°</label>
+            </div>
+
+            <div class="quiz-container">
+                <p>2. If a triangle has one of the interior angles 90°, what is it called?</p>
+                <label><input type="radio" name ="question2" value="obtuse" />obtuse</label>
+                <label><input type="radio" name ="question2" value="acute" />acute</label>
+                <label><input type="radio" name ="question2" value="right angled" />right angled</label>
+            </div>
+
+            <div class="quiz-container">
+                <p>3. If a triangle has all the three sides of equal length, what is it called?</p>
+                <label><input type="radio" name ="question3" value="equilateral triangle" />equilateral triangle</label>
+                <label><input type="radio" name ="question3" value="isosceles triangle" />isosceles triangle</label>
+                <label><input type="radio" name ="question3" value="scalene triangle" />scalene triangle</label>
+            </div>
+
+            <div class="quiz-container">
+                <p>4. If a triangle has two sides are of equal length, what is it called?</p>
+                <label><input type="radio" name ="question4" value="equilateral triangle" />equilateral triangle</label>
+                <label><input type="radio" name ="question4" value="isosceles triangle" />isosceles triangle</label>
+                <label><input type="radio" name ="question4" value="scalene triangle" />scalene triangle</label>
+            </div>
+
+            <div class="quiz-container">
+                <p>5. If a triangle has all three sides unequal, what is it called?</p>
+                <label><input type="radio" name ="question5" value="equilateral triangle" />equilateral triangle</label>
+                <label><input type="radio" name ="question5" value="isosceles triangle" />isosceles triangle</label>
+                <label><input type="radio" name ="question5" value="scalene triangle" />scalene triangle</label>
+            </div>
+
+            <div class="quiz-container">
+                <p>6. If a triangle has all interior angles less than 90°, what is it called?</p>
+                <label><input type="radio" name ="question6" value="obtuse" />obtuse</label>
+                <label><input type="radio" name ="question6" value="acute" />acute</label>
+                <label><input type="radio" name ="question6" value="right angled" />right angled</label>
+            </div>
+
+            <div class="quiz-container">
+                <p>7. If a triangle has one of the interior angles more than 90°, what is it called?</p>
+                <label><input type="radio" name ="question7" value="obtuse" />obtuse</label>
+                <label><input type="radio" name ="question7" value="acute" />acute</label>
+                <label><input type="radio" name ="question7" value="right angled" />right angled</label>
+            </div>
+
+            <div class="quiz-container">
+                <p>8. How many sides a triangle has?</p>
+                <label><input type="radio" name ="question8" value="1" />1</label>
+                <label><input type="radio" name ="question8" value="2" />2</label>
+                <label><input type="radio" name ="question8" value="3" />3</label>
+            </div>
+
+            <div class="quiz-container">
+                <p>9. Sum of angles of the triangle is equal to?</p>
+                <label><input type="radio" name ="question9" value="120°" />120°</label>
+                <label><input type="radio" name ="question9" value="180°" />180°</label>
+                <label><input type="radio" name ="question9" value="150°" />150°</label>
+            </div>
+
+            <div class="quiz-container">
+                <p>10. The longest side of a right-angled triangle is?</p>
+                <label><input type="radio" name ="question10" value="base" />base</label>
+                <label><input type="radio" name ="question10" value="perpendicular" />perpendicular</label>
+                <label><input type="radio" name ="question10" value="hypotenuse" />hypotenuse</label>
+            </div>
+        </form>
+        <button id="#submit-btn">Submit</button>
+        <div id="score-output"></div>
+</body>
+</html>
