@@ -161,6 +161,15 @@ body {
     margin: auto;
 }
 
+.container-hypo-area{
+    padding: 0rem 1rem;
+    max-width: 600px;
+    margin: auto;
+    margin-top: 1rem;
+    padding: 0.5rem 0.5rem;
+    text-align: center;
+}
+
 #perpendicular{
     display: block;
     width: 50%;
