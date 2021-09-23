@@ -76,7 +76,8 @@ body {
     padding: 0.5rem;
     border-radius: 0.5rem;
     border: 2px solid black;
-    background-color: transparent;
+    background-color: #006d77;
+    color: white;
     cursor: pointer;
 }
 
@@ -128,6 +129,7 @@ body {
     width: 30%;
     font-weight: bold;
     font-size: 1rem;
+    color: white;
     cursor: pointer;   
 }
 
@@ -145,3 +147,63 @@ body {
 }
 
 /* For Hypotenuse */
+.header{
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.header-image{
+    max-width: 100%;
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin: auto;
+}
+
+#perpendicular{
+    display: block;
+    width: 50%;
+    margin: auto;
+    padding: 0.5rem 0.5rem;
+    border-radius: 0.25rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+#base{
+    display: block;
+    width: 50%;
+    margin: auto;
+    padding: 0.5rem 0.5rem;
+    border-radius: 0.25rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.hypo{
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+#btn-hypotenuse{
+    display: block;
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: 2px solid black;
+    background-color: #006d77;
+    color: white;
+    cursor: pointer;
+}
+
+#btn-hypotenuse:hover{
+    opacity: 0.7;
+}
+
+#hypotenuse-output{
+    font-size: x-large;
+    padding: 1rem;
+    font-weight: bold;
+}

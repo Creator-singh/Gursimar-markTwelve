@@ -18,5 +18,22 @@
             <li class="list-inline"><a class="link-nav" href="/area.html">Area</a></li>
         </ul>
     </nav>
+
+    <header class="header">
+        <img class="header-image" src="./images/Base.svg">
+        <h2 class="header-heading">Hypotenuse = √[Base<sup>2</sup> + Perpendicular<sup>2</sup>]</h2>
+    </header>
+
+    <div class="container">
+        <label class="hypo" for="perpendicular">Perpendicular:
+            <input placeholder="Enter Perpendicular" id="perpendicular" type="number">
+        </label>
+        <label class="hypo" for="base">Base:
+            <input placeholder="Enter Base" id="base" type="number">
+        </label>
+        <button id="btn-hypotenuse">Calculate Hypotenuse</button>
+        <div id="hypotenuse-output"></div>
+    </div>
 </body>
+<script src="./hypotenuse.js"></script>
 </html>
