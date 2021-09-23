@@ -13,7 +13,7 @@ function calculateHypotenuse(){
     {
         const sumOfSquares = calculateSumOfSquares(Number(perpendicular.value), Number(base.value));
         const result = Math.sqrt(sumOfSquares);
-        hypotenuseOutput.innerText = "Hypotenuse is " + result;
+        hypotenuseOutput.innerText = "The Length of Hypotenuse is " + result + " unit";
     }
     else{
         hypotenuseOutput.innerText = "Please Enter both the fields🤦‍♂️";

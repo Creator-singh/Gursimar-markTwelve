@@ -38,6 +38,7 @@ body {
 
 .nav-link-active{
     font-weight: bold;
+    border-bottom: 2px solid;
 }
 
 /* For is Triangle? */
@@ -203,6 +204,50 @@ body {
 }
 
 #hypotenuse-output{
+    font-size: x-large;
+    padding: 1rem;
+    font-weight: bold;
+}
+
+/* For Area */
+#base-area{
+    display: block;
+    width: 50%;
+    margin: auto;
+    padding: 0.5rem 0.5rem;
+    border-radius: 0.25rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+#height{
+    display: block;
+    width: 50%;
+    margin: auto;
+    padding: 0.5rem 0.5rem;
+    border-radius: 0.25rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+#btn-area{
+    display: block;
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: 2px solid black;
+    background-color: #006d77;
+    color: white;
+    cursor: pointer;
+}
+
+#btn-area:hover{
+    opacity: 0.7;
+}
+
+#area-output{
     font-size: x-large;
     padding: 1rem;
     font-weight: bold;
