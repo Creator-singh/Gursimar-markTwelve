@@ -9,9 +9,16 @@ function calculateSumOfSquares(perpendicular,base){
 }
 
 function calculateHypotenuse(){
-    const sumOfSquares = calculateSumOfSquares(Number(perpendicular.value), Number(base.value));
-    const result = Math.sqrt(sumOfSquares);
-    hypotenuseOutput.innerText = "Hypotenuse is " + result;
+    if(Number(perpendicular.value) > 0 && Number(base.value) > 0)
+    {
+        const sumOfSquares = calculateSumOfSquares(Number(perpendicular.value), Number(base.value));
+        const result = Math.sqrt(sumOfSquares);
+        hypotenuseOutput.innerText = "Hypotenuse is " + result;
+    }
+    else{
+        hypotenuseOutput.innerText = "Please Enter both the fields🤦‍♂️";
+    }
+    
 }
 
 calHypotenuse.addEventListener("click", calculateHypotenuse);
